@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vowel Count App</title>
+</head>
+<body>
+    <h1>Vowel Count App</h1>
+     <script>
+        let name=prompt("Enter Your Name");
+        
+        name=name.toLowerCase();
+        console.log(name)
+        let count=0;
+        for(let i=0;i<name.length;i++)
+        {
+          if(name.charAt(i)=='a'||name.charAt(i)=='e'||name.charAt(i)=='i'||name.charAt(i)=='o'||name.charAt(i)=='u')
+          {
+             count++;
+          }
+        }
+        console.log("total no of vowel: ",count)
+     </script>
+</body>
+</html>
